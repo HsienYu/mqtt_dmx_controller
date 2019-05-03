@@ -39,7 +39,7 @@ var playerId = opts.playerId || config.playerId;
 
 client.on('connect', function () {
     myLog('MQTT subscriber connected: ', url);
-    var topicSubscription = namespace + '/mqtt-DMX/' + playerId + '/#';
+    var topicSubscription = namespace + '/mqtt-media-player/' + playerId + '/#';
     myLog('MQTT subscribe to: ', topicSubscription);
     client.subscribe(topicSubscription);
 });
