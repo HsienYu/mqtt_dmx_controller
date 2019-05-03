@@ -66,9 +66,11 @@ client.on('message', function (topic, message) {
     switch (payload) {
         case 'fog_on':
             fog_on();
+            console.log('fog on now');
             break;
         case 'fog_off':
             fog_off();
+            console.log('fog off now')
             break;
     }
 });
