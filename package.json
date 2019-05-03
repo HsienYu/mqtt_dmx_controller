@@ -1,0 +1,19 @@
+{
+  "name": "mqtt_dmx_controller",
+  "version": "1.0.0",
+  "description": "mqtt_dmx_controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsienYu/mqtt_dmx_controller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HsienYu/mqtt_dmx_controller/issues"
+  },
+  "homepage": "https://github.com/HsienYu/mqtt_dmx_controller#readme"
+}

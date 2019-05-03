@@ -1,0 +1,8 @@
+{
+    "verbose": "true",
+    "host": "192.168.5.201",
+    "username": "myUser",
+    "password": "myPass",
+    "namespace": "tower",
+    "playerId": "fog"
+}
